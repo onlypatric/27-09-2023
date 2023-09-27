@@ -42,7 +42,14 @@ public class MainApp {
                 System.out.println(input.toUpperCase());
                 break;
             case 5:
-                System.out.println(input.substring(0, 1).toUpperCase() + input.substring(1));
+                if (input.contains(" ")){
+                    for (String string : input.split(" ")) {
+                        System.out.print(string.substring(0, 1).toUpperCase() + string.substring(1)+" ");
+                    }
+                    System.out.println();
+                }
+                else
+                    System.out.println(input.substring(0, 1).toUpperCase() + input.substring(1));
                 break;
             case 6:
                 System.out.println(input.replaceAll("[^aeiou]", "").length());
