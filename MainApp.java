@@ -45,7 +45,7 @@ public class MainApp {
                 System.out.println(input.substring(0, 1).toUpperCase() + input.substring(1));
                 break;
             case 6:
-                System.out.println(input.replaceAll("[aeiou]", "").length());
+                System.out.println(input.replaceAll("[^aeiou]", "").length());
                 break;
             case 7:
                 System.out.println(input.replaceAll("[aeiou]", "").length());
