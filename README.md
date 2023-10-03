@@ -37,7 +37,7 @@ Per utilizzare il programma, eseguire la classe `MainApp`. Sarà richiesto di in
 
 ## Versione
 
-- Versione 1.0
+- Versione 1.0.1
 
 ## Requisiti
 

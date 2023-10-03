@@ -4,7 +4,7 @@
  * Questa è la classe principale del progetto.
  * 
  * @author: Pintescul Patric - Eletr Shehab Ali Latif Ali
- * @version: 1.0
+ * @version: 1.0.1
  */
 public class MainApp {
 
