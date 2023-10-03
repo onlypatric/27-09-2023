@@ -6,7 +6,7 @@ Questo progetto Java è composto da due classi principali: `MainApp` e `Chooser`
 
 La classe `MainApp` è la classe principale del progetto ed è responsabile per l'interazione con l'utente e l'esecuzione delle operazioni sulla stringa inserita.
 
-### Funzionalità
+### Funzionalità MainApp
 
 - Stampa la stringa inserita.
 - Visualizza la lunghezza della stringa.
@@ -21,7 +21,7 @@ La classe `MainApp` è la classe principale del progetto ed è responsabile per 
 
 La classe `Chooser` è utilizzata dalla classe `MainApp` per gestire l'interazione con l'utente nella selezione delle opzioni.
 
-### Funzionalità
+### Funzionalità Chooser
 
 - Consente all'utente di selezionare un'opzione da un elenco predefinito.
 - Gestisce errori durante la selezione dell'opzione, consentendo all'utente di riprovare.
