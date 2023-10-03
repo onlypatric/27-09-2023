@@ -58,7 +58,6 @@ public class MainApp {
                     System.out.println(input.toUpperCase());
                     break;
                 case 5:
-                    // Rendi i caratteri iniziali di parola maiuscola
                     if (input.contains(" ")) {
                         for (String string : input.split(" ")) {
                             System.out.print(string.substring(0, 1).toUpperCase() + string.substring(1) + " ");
