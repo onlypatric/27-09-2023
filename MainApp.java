@@ -68,11 +68,11 @@ public class MainApp {
                     break;
                 case 6:
                     // Conta le vocali nella stringa
-                    System.out.println(input.replaceAll("[^aeiou]", "").length());
+                    System.out.println(input.toLowerCase().replaceAll("[^aeiou]", "").length());
                     break;
                 case 7:
                     // Conta le consonanti nella stringa
-                    System.out.println(input.replaceAll("[aeiou]", "").length());
+                    System.out.println(input.toLowerCase().replaceAll("[aeiou]", "").length());
                     break;
                 case 8:
                     // Stampa la stringa in minuscolo
