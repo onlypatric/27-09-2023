@@ -2,6 +2,8 @@
 
 Questo progetto Java è composto da due classi principali: `MainApp` e `Chooser`. Queste classi consentono all'utente di manipolare una stringa attraverso diverse opzioni.
 
+Il progetto è stato realizzato utilizzando Visual Studio Code di versione `September 2023 (version 1.83)`.
+
 ## MainApp
 
 La classe `MainApp` è la classe principale del progetto ed è responsabile per l'interazione con l'utente e l'esecuzione delle operazioni sulla stringa inserita.
